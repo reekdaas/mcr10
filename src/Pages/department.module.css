@@ -1,0 +1,29 @@
+.department {
+  display: flex;
+  gap: 5rem;
+}
+
+.department > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.squarecard {
+  height: 10rem;
+  width: 15rem;
+  text-align: center;
+
+  border: 2px solid var(--clr-dark-2);
+  border-radius: 5%;
+  background-color: var(--clr-black-3);
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
