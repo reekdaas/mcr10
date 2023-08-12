@@ -1,0 +1,15 @@
+.squarecard {
+  height: 10rem;
+  width: 15rem;
+  text-align: center;
+
+  border: 2px solid var(--clr-dark-2);
+  border-radius: 5%;
+  background-color: var(--clr-black-3);
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

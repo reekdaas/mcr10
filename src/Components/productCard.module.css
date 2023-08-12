@@ -1,0 +1,13 @@
+.productCard {
+  background-color: var(--clr-dark-5);
+  color: #fff;
+}
+
+.productCard img {
+  width: 100px;
+  object-fit: cover;
+}
+
+.productCard td {
+  max-width: 300px;
+}

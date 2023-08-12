@@ -1,0 +1,20 @@
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.header > button {
+  padding: 1rem 0.5rem;
+  text-align: center;
+  background-color: var(--clr-accent-1);
+  border: 2px solid var(--clr-black-1);
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+}
