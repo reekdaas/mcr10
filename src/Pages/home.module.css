@@ -1,0 +1,14 @@
+.home {
+  /* padding: 1rem 0; */
+  display: flex;
+  gap: 5rem;
+  /* flex-direction: column; */
+}
+
+.home > div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem 0;
+}
