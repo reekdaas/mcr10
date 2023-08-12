@@ -13,7 +13,7 @@ export default function Department() {
     filterDispatch({ type: "FILTER_BY_CATEGORY", payload: data });
     navigate("/product");
   };
-  console.log(filterState);
+  // console.log(filterState);
   return (
     <div className={styles.department}>
       <Sidebar />

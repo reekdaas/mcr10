@@ -1,0 +1,21 @@
+.productPage {
+  display: flex;
+  gap: 5rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  color: #fff;
+}
+
+.product img {
+  width: 300px;
+}
+
+.product h2 {
+  font-size: 1.1rem;
+}

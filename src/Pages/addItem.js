@@ -28,9 +28,9 @@ export default function AddItem() {
   const handleChange = (e) => {
     const { name, value } = e.target;
     // console.log(name, value);
-    if (name === "stock") {
-      console.log(typeof name);
-    }
+    // if (name === "stock") {
+    //   console.log(typeof name);
+    // }
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
