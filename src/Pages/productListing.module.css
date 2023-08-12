@@ -1,0 +1,35 @@
+.productlisting {
+  display: flex;
+}
+
+.maincontainer {
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table th,
+td {
+  /* border: 1px solid #ffffff; */
+  text-align: left;
+  padding: 8px;
+  font-size: 1.2rem;
+  margin: 4px;
+}
+
+.table th {
+  background-color: var(--clr-accent-3);
+  color: #fff;
+  max-width: 300px;
+}
+
+.table > h2 {
+  color: #fff;
+  text-align: center;
+}
